@@ -14,8 +14,6 @@ const MenuToggle = props => {
         cls.push('fa-bars')
     }
 
-    console.log(cls)
-
     return (
         <i 
             className={cls.join(' ')}
